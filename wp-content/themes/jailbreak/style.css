@@ -1,0 +1,119 @@
+body{
+	background-color: white;
+}
+.header{
+	background-color: #2d2d2d;
+	color: #ffffff;
+}
+header a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.mainmenu{
+	background-color: #3e3e3e;
+}
+.vpn{
+	font-size: 17px;
+	color: #0accf9;
+	margin-left: 2.5px;
+}
+.mainmenu li{
+  margin-left:23px;
+}
+.download{
+	background-color: #FFEB3B;
+}
+.upnav{
+	font-size: 10px;
+}
+.cloud{
+	height: 550px;
+	width: 100%;
+	background-image: url("img/cloud.jpg"),linear-gradient(45deg,#03667d,#10bae1);
+}
+.leftcontent{
+	padding-top: 14%;
+	color: #ffffff;
+	padding-left: 8%;
+}
+.leftcontent h1{
+	font-size: 40px;
+}
+.leftcontent p{
+	font-size: 23px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.bigbtn{
+	font-size: 30px;
+}
+.desktop{
+	padding-top: 18%;
+	padding-left: 40px;
+	padding-right: 70px;
+}
+.videosec{
+	padding-top: 13%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+}
+.description h2{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.privacy{
+	text-align: center;
+}
+.privacy img{
+	padding-bottom: 20px;
+}
+.description{
+	padding-bottom: 100px;
+}
+.time{
+	background-color: #d9f2f8;
+	padding: 70px;
+}
+.log{
+	padding: 120px;
+}
+.globe{
+	text-align: center;
+	padding-left: 18%;
+	padding-right: 18%;
+	padding-bottom: 0px;
+}
+.svg{
+	background-color: #d9f2f8;
+	height: 200px;
+	margin-top: -50px;
+}
+.foot{
+	height: 750px;
+	background-image: url(img/cloud.png);
+	margin-top: 300px;
+	color: #fff;
+}
+.frow{
+	padding-top: 60px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.foot ul li{
+	list-style-type: none;
+	padding-top: 20px;
+	font-weight: bolder;
+
+}
+.foot h3{
+	padding-left: 32px;
+}
+.padleft{
+	padding-left: 65px;
+}
+.foot a{
+	text-decoration: none;
+	color: #ffffff;
+}
