@@ -46,7 +46,7 @@
   </div>
 
 
-  <div class="mainmenu">
+  <div class="mainmenu" style="font-size: .9rem;">
     <div class="container">
       <nav class="navbar navbar-expand-lg">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,26 +55,26 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
     <a class="navbar-brand" href="#">Jailbreak<span class="vpn"><sup> VPN</sup></span></a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Overview <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Why VPN</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Our Network</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Download VPN</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Free Proxy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Prcing</a>
-      </li>
-    </ul>
+
+  <?php 
+  wp_nav_menu(array(
+    'theme_location' =>'header',
+    'depth'  =>2,
+    'container' => 'div',
+    'container_class'   =>'collapse navbar-collapse',
+    'container_id'  => 'bs-example-navbar-collapse-1',
+    'menu_class'   =>  'navbar-nav mr-auto',
+    'fallback_cb'  =>  'WP_Bootstrap_Navwalker::fallback',
+    'walker'   =>  new WP_Bootstrap_Navwalker(),
+
+
+  ));
+
+
+ ?>
+
+
+
       <button class="btn my-2 my-sm-0 download" type="submit">FREE DOWNLOAD</button>
 
   </div>
